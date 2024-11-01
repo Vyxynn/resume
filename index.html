@@ -3,49 +3,72 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jane Doe - Two-Column Resume</title>
-    <link rel="stylesheet" href="tcResume.css" />
+    <title>Alex Johnson - Modern Resume</title>
+    <link rel="stylesheet" href="modernResume.css" />
   </head>
   <body>
     <div class="container">
-      <div class="left-column">
-        <div class="title">
-          <img src="./Images/pfp.png" alt="Profile Picture" />
-          <h1>Jane Doe</h1>
-          <p>Web Developer</p>
+      <header class="header">
+        <img src="./Images/pfp.png" alt="Profile Picture" />
+        <div id="name">
+          <h1>Alex Johnson</h1>
+          <p>UX Designer & Front-end Developer</p>
         </div>
+      </header>
 
+      <div class="sidebar">
         <div class="contact">
           <h2>Contact</h2>
           <hr />
           <p>
-            Email: jane.doe@email.com<br />Phone: (555) 123-4567<br />Location:
-            San Francisco, CA<br />LinkedIn: linkedin.com/in/janedoe<br />GitGub:
-            github.co/janedoe
+            alex.johnson@email.com<br />
+            (555) 123-4567<br />
+            San Francisco, CA<br />
+            linkedin.com/in/alexjohnson<br />
+            github.com/alexjohnson
           </p>
         </div>
 
         <div class="skills">
           <h2>Skills</h2>
           <hr />
+          <div class="flex-container">
+            <p>UX Design</p>
+            <p>UI Design</p>
+            <p>Wireframing</p>
+            <p>Prototyping</p>
+            <p>User Research</p>
+            <p>HTML5</p>
+            <p>CSS3</p>
+            <p>JavaScript</p>
+            <p>React</p>
+            <p>Figma</p>
+            <p>Adobe XD</p>
+            <p>Sketch</p>
+          </div>
+        </div>
+
+        <div class="languages">
+          <h2>Languages</h2>
+          <hr />
           <p>
-            HTML5 / CSS3<br />JavaScript / TypeScript<br />React / Vue.js<br />Node.js
-            / Express<br />SQL / MongoDB<br />Git / GitHub<br />Responsive Web
-            Design<br />UI/UX Design Principles
+            English (Native)<br />
+            Spanish (Fluent)<br />
+            French (Intermediate)
           </p>
         </div>
       </div>
 
-      <div class="right-column">
+      <div class="main">
         <div class="summary">
           <h2>Professional Summary</h2>
           <hr />
           <p>
-            Dedicated and efficient web developer with 5+ years of experience in
-            creating responsive and user-friendly websites. Proficient in
-            front-end and back-end technologies, with a strong focus on modern
-            JavaScript frameworks. Passionate about clean code and innovative
-            web solutions.
+            Innovate UX Designer with 6+ years of experience in creating
+            intuitive and engaging user interfaces. Skilled in translating
+            complex ideas into user-friendly designs and collaborating with
+            cross-functional teams to deliver high-quality products. Passionate
+            about accessibility and creating digital experiences.
           </p>
         </div>
 
@@ -53,52 +76,57 @@
           <h2>Work Experience</h2>
           <hr />
 
-          <div id="exp1">
-            <h4>Senior Web Developer- TechFront Solutions</h4>
+          <div class="exp">
+            <h4>Senior UX Designer</h4>
+            <p class="place">TechInnovate Solutions</p>
             <p class="date">January 2020 - Present</p>
             <p>
-              Lead a team of 4 developers in creating and maintaining
-              large-scale web applications<br />
-              Implemented a new React-based front-end architecture, improving
-              performance by 35%<br />
-              Collaborated with UX designers to create intuitive interfaces for
-              complex date visualization tools<br />
-              Mentored junior developers and conducted code reviews to ensure
-              high-quality deliverables
+              Lead UX design for flagship product, increasing user engagement by
+              40%<br />
+              Conduct user research and usability teasting to inform design
+              decisions<br />
+              Collaborate with product managers and developers to ensure
+              seamless implementation of designs Mentor junior designers and
+              facilitate design thinking workshops
             </p>
           </div>
-          <div id="exp2">
-            <h4>Web Developer - InnoWeb Creations</h4>
+
+          <div class="exp">
+            <h4>UX/UI Designer</h4>
+            <p class="place">DigitalCraft Agency</p>
             <p class="date">June 2017 - December 2019</p>
             <p>
-              Developed and maintained client websites using HTML5, CSS3, and
-              JavaScript<br />
-              Created custom WordPress themes and plugins to meet specific
-              client requirements<br />
-              Optimized website performance, acheiving a 40% reduction in load
-              times<br />
-              Integrated third-party APIs to enhance website functionality and
-              user experience
+              Designed user interfaces for web and mobile applications accross
+              various industries<br />
+              Created wireframes, prototypes, and high-fidelity mockups using
+              industry-standard tools<br />
+              Collaborated with clients to understand project requirements and
+              deliver tailored solutions
             </p>
           </div>
         </div>
 
         <div class="education">
           <h2>Education</h2>
+          <hr />
 
-          <h4>Bachelor of Science in Computer Science</h4>
-          <p>University of Technology, Gradutated: May 2017</p>
+          <div class="edu">
+            <h4>Bachelor of Science in Interaction Design</h4>
+            <p class="place">University of Creative Technologies</p>
+            <p class="date">Graduated: May 2017</p>
+          </div>
         </div>
 
         <div class="projects">
           <h2>Projects</h2>
+          <hr />
           <p>
-            <b>E-commerce Platform:</b> Built a full-stack online store using
-            React, Node.js, and MongoDB<br />
-            <b>Task Management App:</b> Developed a responsive web app using
-            Vue.js and Firebase<br />
-            <b>Portfolio Website:</b> Designed and implemented a personal
-            portfolio showcasing web development projects
+            <b>HealthTrack App:</b> Redesigned a health monitoring app,
+            improving user retention by 25%<br />
+            <b>E-commerce Redesign:</b> Overhauled the UX for an e-commerce
+            platform, resulting in a 30% increase in conversions<br />
+            <b>Accessibility Audit:</b> Conducted a comprehensive accessibility
+            audit for a government website, ensuring WCAG 2.1 AA compliance
           </p>
         </div>
       </div>
